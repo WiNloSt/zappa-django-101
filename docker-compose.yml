@@ -1,17 +1,18 @@
-version: '3.4'
+version: '3.7'
 services:
-  backend:
-    image: lambci/lambda:build-python3.8
+  shell:
+    build: ./zappa-shell
     links:
       - database
     volumes:
       - .:/var/task
+      - ~/.aws/:/root/.aws:ro
   database:
     image: postgres:10.7
     ports:
-    - "5432:5432"
+      - "5432:5432"
     volumes:
-    - .:/code
-    - postgresql-volume:/var/lib/postgresql/data
+      - .:/code
+      - postgresql-volume:/var/lib/postgresql/data
 volumes:
   postgresql-volume:

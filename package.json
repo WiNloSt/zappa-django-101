@@ -1,0 +1,12 @@
+{
+  "name": "zappa-django-101",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:WiNloSt/zappa-django-101.git",
+  "author": "Mahatthana Nomsawadi <mahatthana.n@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "shell": "docker-compose run -e AWS_PROFILE=simplesat -p 8000:8000 --rm shell",
+    "debug": "ls -la $HOME"
+  }
+}
