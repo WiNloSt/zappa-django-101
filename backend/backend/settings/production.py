@@ -3,7 +3,7 @@ from .base import *
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
-ALLOWED_HOSTS = ['x2lnwvcd0c.execute-api.eu-west-1.amazonaws.com']
+ALLOWED_HOSTS = ['x2lnwvcd0c.execute-api.eu-west-1.amazonaws.com', 'api-zappa-dev.simplesat.io']
 
 INSTALLED_APPS += ['django_s3_storage']
 

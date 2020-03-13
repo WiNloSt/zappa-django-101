@@ -5,6 +5,9 @@
     "project_name": "backend",
     "runtime": "python3.8",
     "s3_bucket": "zappa-simplesat-dev",
-    "aws_region": "eu-west-1"
+    "aws_region": "eu-west-1",
+    "domain": "api-zappa-dev.simplesat.io",
+    "certificate_arn": "",
+    "route53_enabled": false
   }
 }

@@ -7,6 +7,6 @@
   "license": "MIT",
   "scripts": {
     "shell": "docker-compose run -e AWS_PROFILE=simplesat -p 8000:8000 --rm shell",
-    "debug": "ls -la $HOME"
+    "build": "docker-compose build"
   }
 }
