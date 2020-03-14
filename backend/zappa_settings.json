@@ -10,6 +10,7 @@
     "cloudwatch_log_level": "INFO",
     "cloudwatch_data_trace": true,
     "cloudwatch_metrics_enabled": true,
+    "binary_support": false,
     "certificate_arn": "",
     "route53_enabled": false
   }
