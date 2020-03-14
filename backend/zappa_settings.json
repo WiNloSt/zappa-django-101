@@ -7,6 +7,9 @@
     "s3_bucket": "zappa-simplesat-dev",
     "aws_region": "eu-west-1",
     "domain": "api-zappa-dev.simplesat.io",
+    "cloudwatch_log_level": "INFO",
+    "cloudwatch_data_trace": true,
+    "cloudwatch_metrics_enabled": true,
     "certificate_arn": "",
     "route53_enabled": false
   }
