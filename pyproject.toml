@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "zappa-django-101"
+version = "1.0.0"
+description = ""
+authors = ["Mahatthana Nomsawadi <mahatthana.n@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^2.2"
+django-filter = "^2.2.0"
+djangorestframework = "^3.11.0"
+markdown = "^3.2.1"
+psycopg2-binary = "^2.8.4"
+django-extensions = "^2.2.8"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+flake8 = "^3.7.9"
+rope = "^0.16.0"
+mypy = "^0.770"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
